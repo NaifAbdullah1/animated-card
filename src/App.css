@@ -5,13 +5,9 @@
 }
 
 body {
-  display: grid;
-  min-height: 100vh;
-  place-items: center;
   line-height: 1.6;
   background: var(--clr-neutral-900);
   font-family: sans-serif;
-  padding-right: 15em;
 }
 
 .card {
@@ -53,12 +49,12 @@ body {
   left: calc(var(--padding) * -1);
   bottom: -2px;
   background: var(--clr-accent-400);
-  transform-origin: left;
   /*Start from left to right*/
+  transform-origin: left;
   transition: transform 500ms ease;
 }
 
-@media (hover) {
+@media (click) {
   .card-content {
     transform: translateY(65%);
     transition: transform 500ms ease;
