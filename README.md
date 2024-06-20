@@ -45,3 +45,9 @@ Follow these instructions to get a copy of the project up and running on your lo
 Start the development server:
 ```bash
 npm run dev
+```
+
+## Usage
+The main component is defined in App.js and the styles are in App.css. You can customize the content of the card and its styles as per your needs.
+
+## Acknowledgments
