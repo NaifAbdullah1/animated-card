@@ -54,7 +54,7 @@ body {
   transition: transform 500ms ease;
 }
 
-@media (click) {
+@media (hover) {
   .card-content {
     transform: translateY(65%);
     transition: transform 500ms ease;
